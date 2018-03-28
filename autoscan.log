@@ -1,0 +1,2 @@
+autoscan: warning: missing AC_CHECK_FUNCS([strtol]) wanted by: 
+	cmdline-lsb.c:489

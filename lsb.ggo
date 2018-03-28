@@ -1,0 +1,7 @@
+args "--file-name=cmdline-lsb"
+option "infile" i "Input file to use" string default="-" typestr="filename" details="File to use as input, give '-' for STDIN" optional
+option "outfile" o "Output file to use" string default="-" typestr="filename" details="File to use as output, give '-' for STDOUT" optional
+option "num-lsb" n "How many LSB to use" int default="1" details="Number of least significant bytes to hide data in" optional
+option "encode" e "Encode Data" optional
+option "decode" d "Decode Data" optional
+
